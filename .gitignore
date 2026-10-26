@@ -1,0 +1,22 @@
+# provided datasets (not committed)
+dataset/
+
+# environments and caches
+.venv/
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+Machine_Learning.code-workspace
+
+# local analysis/report artifacts (kept on disk, not part of the code submission)
+report/
+experiments/
+results/*
+!results/y_test.csv
+
+# keep only the main notebook; collaborator/EDA notebooks stay local
+notebooks/*
+!notebooks/03_neural_network.ipynb
